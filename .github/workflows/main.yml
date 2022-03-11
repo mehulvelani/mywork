@@ -16,5 +16,5 @@ jobs:
       with:
         server: ftp.pinkcomfort.space
         username: mywork@pinkcomfort.space
-        password: ${{ secrets.ftp_password }}
+        password: s)qe2.Z1pRK8
         server-dir: /public_html/mywork/
