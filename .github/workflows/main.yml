@@ -17,4 +17,4 @@ jobs:
         server: 162.241.252.14
         username: system@pinkcomfort.space
         password: %R1{RPg{$VH;
-        server-dir: /public_html/mywork/
+        server-dir: /home1/eplanman/public_html/mywork/
