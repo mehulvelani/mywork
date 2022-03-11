@@ -1,4 +1,7 @@
-on: push
+on: 
+  push:
+    branches:
+      - main
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -14,3 +17,4 @@ jobs:
         server: ftp.pinkcomfort.space
         username: mywork@pinkcomfort.space
         password: ${{ secrets.ftp_password }}
+        server-dir: /public_html/mywork/
