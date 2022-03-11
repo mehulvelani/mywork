@@ -14,6 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ftp.pinkcomfort.space
-        username: mywork@pinkcomfort.space
-        password: ${{ secrets.ftp_password }}
+        server: 198.38.88.250
+        username: mrwebzonehome@mrwebzone.com
+        password: g~=j=RLK3,k!
+        server-dir: /public_html/mywork/
